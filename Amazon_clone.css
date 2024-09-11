@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif
+}
+.navbar{
+    background-color: #0f1111;
+    color:white;
+    height:60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+    margin: 2px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("images.png");
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.country{
+    display: flex;
+    align-items: center;
+}
+.add1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.add2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 3px;
+}
+.navsearch{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.navsearch:hover{
+    border: 2px solid #f08804;
+    border-radius: 6px;
+}
+.search-icon{
+    background-color: #f08804;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    width:50px;
+    font-size: 1.5rem;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.hi{
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.bye{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font-weight: 700;
+}
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #222f3d;
+    height: 40px;
+}
+.panel-ops a{
+display: inline;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.panel-ops{
+    width: 80%;
+}
+.shop{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.hero{
+    background-image: url("airdopes.jpg");
+    display: flex;
+    height: 300px;
+    background-size: cover;
+    justify-content: center;
+    align-items: end;
+}
+.hero-msg a{
+    color: #007185;
+}
+.hero-msg{
+    background-color: white;
+    width: 96%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#F9CD9C;
+    justify-content:center;
+}
+.box{
+    height:400px;
+    width:23%;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+.box a{
+    color: #007185;
+}
+.box-content{
+    margin:15px
+}
+.box-img{
+    height:300px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foot-msg{
+    height:40px;
+    background-color: #222d22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.footerd p{
+    font-weight: 500;
+    color: white;
+    font-size: 1.1rem;
+}
+ul{
+    color: #dddddd;
+    font-size: 0.9rem;
+}
+.footerd{
+    display: flex;
+    height:300px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+}
